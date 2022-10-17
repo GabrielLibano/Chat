@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user_form{
+    display: none;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 99;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.container_messages{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.message_form{
+    display: flex;
+    margin-top: 70vh;
+    justify-content: flex-end;
+}
+
+ul,li{
+    list-style: none;
+}
